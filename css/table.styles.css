@@ -42,7 +42,7 @@ th[colspan="1"] img{
     border-radius: 50%;
 }
 th[colspan="2"] img{
-    border-radius: 50%;
+    border-radius: 40px;
 }
 table[colspan="1"][colspan="2"]{
     background-color: rgb(247, 169, 234);
