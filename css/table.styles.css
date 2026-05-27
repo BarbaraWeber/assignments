@@ -33,6 +33,7 @@ th[colspan="2"] img{
 }
 th[colspan="2"] {
     background-color: rgb(113, 7, 88);
+    size: 20px;
 }
 th[colspan="1"] {
     background-color: rgb(113, 7, 88);    
