@@ -28,10 +28,10 @@ td[colspan="3"]{
 th[colspan="1"] img{
     width: 150px;
 }
-th[colspan="2"] img{
-    width: 200px;
+th[colspan="1"] img{
+    width: 100px;
 }
-th[colspan="2"] {
+th[colspan="1"] {
     background-color: rgb(113, 7, 88);
     size: 20px;
 }
@@ -41,7 +41,7 @@ th[colspan="1"] {
 th[colspan="1"] img{
     border-radius: 50%;
 }
-th[colspan="2"] img{
+th[colspan="1"] img{
     border-radius: 40px;
 }
 table[colspan="1"][colspan="2"]{
