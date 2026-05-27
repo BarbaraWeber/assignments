@@ -37,5 +37,10 @@ th[colspan="2"] {
 }
 th[colspan="1"] {
     background-color: rgb(113, 7, 88);  
-    width: 50px;
+}
+th[colspan="1"] img{
+    border-radius: 50%;
+}
+th[colspan="2"] img{
+    border-radius: 50%;
 }
