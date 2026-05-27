@@ -37,5 +37,5 @@ th[colspan="2"] {
 }
 th[colspan="1"] {
     background-color: rgb(113, 7, 88);  
-    size: 20px;  
+    width: 50px;
 }
