@@ -1,0 +1,39 @@
+table{
+    width: 80%;
+}
+th{
+    text-align: left;
+}
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td{
+    padding: 10px;
+}
+th{
+    background-color: rgb(247, 169, 234);
+}
+th[colspan="1"]{
+    text-align: center;
+    
+    
+}
+td[colspan="3"]{
+    text-align: center;
+    background-color: #fcfcfc;
+    font-weight: bold;
+}
+
+th[colspan="1"] img{
+    width: 150px;
+}
+th[colspan="2"] img{
+    width: 200px;
+}
+th[colspan="2"] {
+    background-color: rgb(113, 7, 88);
+}
+th[colspan="1"] {
+    background-color: rgb(113, 7, 88);    
+}
