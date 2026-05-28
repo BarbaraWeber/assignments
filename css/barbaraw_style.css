@@ -1,0 +1,14 @@
+div.inline{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+div.pink{
+    background-color: pink;
+}
+div.brown{
+    background-color: rgba(148, 64, 64, 0.991);
+}
+div.yellow{
+    background-color: lightyellow;
+}
