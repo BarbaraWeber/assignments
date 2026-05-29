@@ -1,42 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Html Table</title>
-    <link rel="stylesheet" href="../css/table.styles.css"> 
+    <link rel="stylesheet" href="../css/table.styles.css">
 </head>
 
 <body>
 
-        <h1> Barbara Weber - Table</h1>
-        <table>
-            <thead>
-                <tr>
-                    <th colspan="2"> <img src=" ../img/maltese.jpg" alt="maltese"> </th>
-                    <th colspan="3"> <img src=" ../img/Golden Retriever.jpg" alt="Golden Retriever"> </th>
-                </tr>
-                <tr>
-                    <th> Dog </th>
-                    <th> size</th>
-                    <th> Color </th>
-                </tr>
-                <Tr> 
-                    <td> Maltese </td>
-                    <td> Small</td>
-                    <td> White </td>
-                    </td>
-                </Tr>
-                <Tr> 
-                    <td> Golden Retriever </td>
-                    <td> Large</td>
-                    <td> Golden </td>
-                </td>
-                <tr>
-                    <td colspan="3"> Two of my favorite dogs  </td>
-                </tr>
-            </thead>
-        </table>
-        <a href="../index.html"> Back to home page </a>
+    <h1> Barbara Weber - Table</h1>
+    <table>
+        <thead>
+            <tr>
+                <th rowspan="2"> <img src=" ../img/maltese.webp" alt="maltese"> </th>
+                <th colspan="3"> <img src=" ../img/golden_retriever.jpg" alt="golden_retriever"> </th>
+            </tr>
+            <tr>
+                <th colspan="3"> Info about dogs</th>
+            </tr>
+        </thead>
+
+        <tr>
+            <th>Dog</th>
+            <th>size</th>
+            <th>Color</th>
+            <th>Reasons why they are my favorites</th>
+        </tr>
+        <tr>
+            <td> Maltese </td>
+            <td> Small</td>
+            <td> White </td>
+            <td> I love Maltese dogs because they are very loving, they are small so you can hold them, and they dont shed.</td>
+        </tr>
+
+            <tr>
+                <td> Golden Retriever </td>
+                <td> Large </td>
+                <td> Golden </td>
+                <td> I love Golden Retrievers because they very friendly,loving and makegreat family pets.</td>
+            </tr>
+        <tfoot>
+            <tr>
+                <td colspan="4"> Two of my favorite dogs </td>
+            </tr>
+        </tfoot>
+    </table>
+    <a href="../index.html"> Back to home page </a>
 </body>
+
 </html>
