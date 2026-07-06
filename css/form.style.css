@@ -1,0 +1,20 @@
+form{
+    border: 2px solid; #black;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    font-family: Arial, sans-serif; 
+    font-weight: bold; 
+   
+}
+input[type="text"], input[type="tel"],input[type="email"], textarea {
+    width: 60%;
+    margin-bottom: 15px;
+    border: 2px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    
+
+}
+
