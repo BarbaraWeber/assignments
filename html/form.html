@@ -9,19 +9,18 @@
 
 <body>
     <form>
-        <br> Do you have questions? 
-        <br> 
-        <br> Please contact us:
-        <br>
-        <br> First Name:<input type="text">
-        <br> Last Name: <input type="text">
-        <br> Email: <input type="email">
-        <br> Phone: <input type="tel">
-        <br> Message: <br> <textarea></textarea>
+        <p class="center"> Do you have questions? </p>
+        <p class="center"> Please contact us: </p>
+        <br> <label for="first_name">First Name:</label> <input id="first_name" type="text">
+        <br> <label for="last_name">Last Name:</label> <input id="last_name" type="text">
+        <br> <label for="email">Email:</label> <input id="email" type="email">
+        <br> <label for="phone">Phone:</label> <input id="phone" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+        <br> <label for="message">Message:</label> <textarea id="message"></textarea>
         <br> <br>
+        <div id="buttons"> 
        <input type="submit" id="Submit">
-       <br> <br> 
        <input type="reset" id="Reset">
+         </div>
        <br> <br>
        <a href="../index.html"> home page </a>
 
